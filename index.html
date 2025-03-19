@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary fw-bold" href="#">My EventsCenter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel Auto Play -->
+    <div id="carouselExample" class="mt-5 carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/chris-tomlin.jpg" class="object-fit-cover hero-img d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/phil-wickham.jpg" class="object-fit-cover hero-img d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/hero1.jpg" class="object-fit-cover hero-img d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-5">
+        <div class="about-us">
+            <h1 class="text-white text-center">Awaken Worship Night: A Concert of Praise and Revival</h1>
+            <p class="text-white text-center">Join us for Awaken Worship Night, a powerful evening of music, praise, and spiritual renewal!
+                <br><br>
+                Experience the presence of God through passionate worship led by anointed musicians and singers.
+                This night is designed to bring hearts together in unity, lifting up the name of Jesus through songs of faith and revival.
+            </p>   
+        </div>
+    </div>
+    <div class="clearfix m-3 border-bottom"></div>
+    <div class="container-fluid my-5">
+        <h1 class="text-white text-center">Featured Events</h1>
+        <div class="events">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card text-bg-dark m-3 border border-secondary">
+                        <img src="img/chris-tomlin_avatar.jpg" class="h-18rem img-responsive card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chris Tomlin</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-info-circle-fill"></i> View Details</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card text-bg-dark m-3 border border-secondary">
+                        <img src="img/phil-wickham.jpg" class="h-18rem img-responsive card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Phil Wickham</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <a href="#" class="btn btn-primary" ><i class="bi bi-info-circle-fill"></i> View Details</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card text-bg-dark m-3 border border-secondary">
+                        <img src="img/cityalight.jpg" class="h-18rem img-responsive card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">City A Light</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <a href="#" class="btn btn-primary" ><i class="bi bi-info-circle-fill"></i> View Details</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+       
+        <!-- <h5 class="m-1 mb-3 fw-bold text-secondary">New Arrival</h5>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card m-3">
+                    <img src="https://picsum.photos/500/400?random=1" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <div class="card-text mb-3 d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="bi bi-star-fill text-warning"></i> 
+                                <strong>4.8</strong>
+                                <span class="text-secondary">(20)</span>
+                            </div>
+                           <div>
+                                <i class="bi bi-bookmark"></i>
+                           </div>
+                        </div>
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text text-secondary">Category: Men</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                            <a href="#" class="btn btn-primary"><i class="bi bi-cart-plus"></i> Add to cart</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card m-3">
+                    <img src="https://picsum.photos/500/400?random=1" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <div class="card-text mb-3 d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="bi bi-star-fill text-warning"></i> 
+                                <strong>4.8</strong>
+                                <span class="text-secondary">(20)</span>
+                            </div>
+                           <div>
+                                <i class="bi bi-bookmark"></i>
+                           </div>
+                        </div>
+                        <h5 class="card-title">Product 1</h5>
+                        
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                            <a href="#" class="btn btn-primary">Add to cart</a> 
+                        </div>
+                    </div>
+                </div>
+            </div> <div class="col-lg-4 col-md-6">
+                <div class="card m-3">
+                    <img src="https://picsum.photos/500/400?random=1" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <div class="card-text mb-3 d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="bi bi-star-fill text-warning"></i> 
+                                <strong>4.8</strong>
+                                <span class="text-secondary">(20)</span>
+                            </div>
+                           <div>
+                                <i class="bi bi-bookmark"></i>
+                           </div>
+                        </div>
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-end align-items-center">
+                            <a href="#" class="btn btn-primary">Add to cart</a> 
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> -->
+    </div>
+    <div class="text-bg-dark text-center text-white p-3"><p>&copy; 2025 Event Center. All rights reserved.</p></div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="img/chris-tomlin_avatar.jpg" class="h-18rem img-responsive w-100" alt="...">
+                        </div>
+                        <div class="col-sm-12">
+                            <h3 class="m-2">Chris Tomlin</h3>
+                            <p>
+                                Chris Tomlin is a contemporary Christian music (CCM) artist, worship leader, and songwriter from Grand Saline, Texas, United States. He is a former staff member at Austin Stone Community Church and is signed to EMI\'s sixstepsrecords. 
+                                <br><br>
+                                Tomlin leads worship at many Passion events. Some of his most well-known songs are "How Great Is Our God", "Our God", "Whom Shall I Fear (God of Angel Armies)" and "Amazing Grace (My Chains Are Gone)".
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

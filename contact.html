@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary fw-bold" href="#">My EventsCenter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Image -->
+    
+    <div class="container mt-10">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-white">Contact Us</h1>
+                <p class="text-white">We'd love to hear from you! Send us a message with your questions, feedback, 
+                    or inquiries. Our team is here to help and will respond as soon as possible.
+                    <br><br>
+                    Our event center is located in the heart of downtown, just minutes away from the city's best attractions. 
+                    Whether you're coming from out of town or a local resident, we invite you to join us for an unforgettable experience. 
+                </p>
+                <div class="mt-5">
+                    <ul class="list-unstyled text-white">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill"></i> 123 Main Street, Anytown, USA</li>
+                        <li class="mb-2"><i class="bi bi-telephone"></i> 123-456-1234</li>
+                        <li class="mb-2"><i class="bi bi-envelope-at"></i> events211@gmail.com</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-md-6 p-4">
+                <form class="rounded border p-4 shadow-sm bg-light needs-validation" novalidate>
+                    <h2 class="text-center mb-3">Get in touch</h2>
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Full name</label>
+                        <input type="text" class="form-control " id="fullname" placeholder="Type your full name here.." required>
+                        <div class="invalid-feedback">
+                            This field is required.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email-address</label>
+                        <input type="email" class="form-control " placeholder="Type your email-address here.." required>
+                        <div class="invalid-feedback">
+                            This field is required.
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea rows="3" class="form-control" id="message" placeholder="Type your message here.." required></textarea>
+                        <div class="invalid-feedback">
+                            Please enter a message here.
+                        </div>
+                        </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div> 
+        </div>
+        <div class="clearfix mb-5"></div>
+        <div class="">
+            
+                <iframe class="w-100 h-18rem" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3096.478576672416!2d-84.5135142!3d39.0955732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sus!4v1740420997042!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+        </div>
+    </div>
+    
+    <div class="text-bg-dark text-center text-white p-3"><p>&copy; 2025 Event Center. All rights reserved.</p></div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
