@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top shadow" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand text-primary fw-bold" href="#">My EventsCenter</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -72,7 +72,7 @@
                             <h5 class="card-title">Chris Tomlin</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="d-flex justify-content-end align-items-center">
-                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-info-circle-fill"></i> View Details</a> 
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firstModal"><i class="bi bi-info-circle-fill"></i> View Details</a> 
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                             <h5 class="card-title">Phil Wickham</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="d-flex justify-content-end align-items-center">
-                                <a href="#" class="btn btn-primary" ><i class="bi bi-info-circle-fill"></i> View Details</a> 
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#secondModal"><i class="bi bi-info-circle-fill"></i> View Details</a> 
                             </div>
                         </div>
                     </div>
@@ -96,89 +96,18 @@
                             <h5 class="card-title">City A Light</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="d-flex justify-content-end align-items-center">
-                                <a href="#" class="btn btn-primary" ><i class="bi bi-info-circle-fill"></i> View Details</a> 
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thirdModal"><i class="bi bi-info-circle-fill"></i> View Details</a> 
                             </div>
                         </div>
                     </div>
                 </div>
             </div> 
         </div>
-       
-        <!-- <h5 class="m-1 mb-3 fw-bold text-secondary">New Arrival</h5>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="card m-3">
-                    <img src="https://picsum.photos/500/400?random=1" class="card-img-top " alt="...">
-                    <div class="card-body">
-                        <div class="card-text mb-3 d-flex justify-content-between align-items-center">
-                            <div>
-                                <i class="bi bi-star-fill text-warning"></i> 
-                                <strong>4.8</strong>
-                                <span class="text-secondary">(20)</span>
-                            </div>
-                           <div>
-                                <i class="bi bi-bookmark"></i>
-                           </div>
-                        </div>
-                        <h5 class="card-title">Product 1</h5>
-                        <p class="card-text text-secondary">Category: Men</p>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <div class="d-flex justify-content-end align-items-center">
-                            <a href="#" class="btn btn-primary"><i class="bi bi-cart-plus"></i> Add to cart</a> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card m-3">
-                    <img src="https://picsum.photos/500/400?random=1" class="card-img-top " alt="...">
-                    <div class="card-body">
-                        <div class="card-text mb-3 d-flex justify-content-between align-items-center">
-                            <div>
-                                <i class="bi bi-star-fill text-warning"></i> 
-                                <strong>4.8</strong>
-                                <span class="text-secondary">(20)</span>
-                            </div>
-                           <div>
-                                <i class="bi bi-bookmark"></i>
-                           </div>
-                        </div>
-                        <h5 class="card-title">Product 1</h5>
-                        
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <div class="d-flex justify-content-end align-items-center">
-                            <a href="#" class="btn btn-primary">Add to cart</a> 
-                        </div>
-                    </div>
-                </div>
-            </div> <div class="col-lg-4 col-md-6">
-                <div class="card m-3">
-                    <img src="https://picsum.photos/500/400?random=1" class="card-img-top " alt="...">
-                    <div class="card-body">
-                        <div class="card-text mb-3 d-flex justify-content-between align-items-center">
-                            <div>
-                                <i class="bi bi-star-fill text-warning"></i> 
-                                <strong>4.8</strong>
-                                <span class="text-secondary">(20)</span>
-                            </div>
-                           <div>
-                                <i class="bi bi-bookmark"></i>
-                           </div>
-                        </div>
-                        <h5 class="card-title">Product 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <div class="d-flex justify-content-end align-items-center">
-                            <a href="#" class="btn btn-primary">Add to cart</a> 
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div> -->
     </div>
     <div class="text-bg-dark text-center text-white p-3"><p>&copy; 2025 Event Center. All rights reserved.</p></div>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="firstModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog ">
             <div class="modal-content">
                 <div class="modal-body">
@@ -202,8 +131,53 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="img/phil-wickham.jpg" class="h-18rem img-responsive w-100" alt="...">
+                        </div>
+                        <div class="col-sm-12">
+                            <h3 class="m-2">Phil Wickham</h3>
+                            <p>
+                                Philip David Wickham is a contemporary Christian musician, singer, and songwriter from San Diego, California. Wickham has released nine albums, Give You My World in 2003, a self-titled album in 2006, Cannons in 2007, Singalong in 2008, Heaven & Earth in 2009, Response in 2011, Singalong 2 in 2012, The Ascension in 2013, Children of God in 2016, Living Hope in 2018 and Hymn of Heaven in 2021.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="thirdModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="img/cityalight.jpg" class="h-18rem img-responsive w-100" alt="...">
+                        </div>
+                        <div class="col-sm-12">
+                            <h3 class="m-2">CityALight</h3>
+                            <p>
+                                We are a music ministry from St Paul’s church in Sydney, Australia. Our vision is to write songs with biblically rich lyrics and simple melodies for Christian church to sing.
+                                <br><br>
+                                We pray that the lyrics and melodies of these songs would fix eyes, hearts, and minds on Jesus. We pray that our songs might join the many thousands of songs written through history to encourage the church, and when they have played their role, to make way for the next ones. And we rejoice that one day the only name left standing will be the name of Jesus, as it should be.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
 </body>
 </html>
